@@ -22,10 +22,10 @@ function App() {
         </li>
       </ul>
       <Routes>
-        <Route exact path="/" component={<Home />} />
-        <Route path="/:number" component={<Number />} />
-        <Route path="/:hello" component={<Word />} />
-        <Route path="/:hello/:text/:color" component={<StyledWord />} />
+        <Route exact path="/" element={<Home />} />
+        <Route path="/:number" element={<Number />} />
+        <Route path="/:hello" element={<Word />} />
+        <Route path="/:hello/:textColor/:bgColor" element={<StyledWord />} />
       </Routes>
     </BrowserRouter>
   );

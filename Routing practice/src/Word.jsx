@@ -4,7 +4,7 @@ export default function Word() {
   const { word } = useParams();
   return (
     <div>
-      <h1>Mostrando una {word}</h1>
+      <h1>{word}</h1>
     </div>
   );
 }
